@@ -31,4 +31,5 @@ group :rubocop do
   gem "rubocop-rspec"
 end
 
+gem "delayed_job", git: "https://github.com/cultureamp/delayed_job", ref: "9b3a64c147c7ab0269f3939232216b722b8d1ddf"
 gemspec
