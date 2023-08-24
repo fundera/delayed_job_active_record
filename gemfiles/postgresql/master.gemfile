@@ -20,6 +20,6 @@ group :test do
   gem "activerecord", github: "rails"
 end
 
-gem "delayed_job", github: "collectiveidea/delayed_job"
+gem "delayed_job", git: "https://github.com/cultureamp/delayed_job", ref: "9b3a64c147c7ab0269f3939232216b722b8d1ddf"
 
 gemspec path: "../../"
